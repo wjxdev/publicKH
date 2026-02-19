@@ -161,6 +161,14 @@ public static void main(String[] args)
 ```
 java 클래스 hello java
 ```
+> "java 클래스" 로 프로그램을 실행하면 JVM 은 길이가 0인 String 배열을 먼저 생성하고 main 메소드를 호출할 때 매개값으로 전달 
+<img width="300" height="296" alt="image" src="https://github.com/user-attachments/assets/ce8f3033-c238-4e42-be0b-e31a9fb4d7d0" />
+
+> 만약 "java 클래스" 뒤에 공백으로 구분된 문자열 목록을 주고 실행한다면
+
+> 문자열 목록으로 구성된 String[] 배열이 생성되고 main 메소드를 호출할 때 매개값으로 전달됨
+<img width="300" height="318" alt="image" src="https://github.com/user-attachments/assets/183c2f4e-283a-435b-a479-d43d09ffe22b" />
+
 
 | 인덱스 | 값 |
 |--------|------|
@@ -178,6 +186,9 @@ int[][] scores = new int[2][3];
 - scores.length → 2
 - scores[0].length → 3
 - scores[1].length → 3
+
+
+
 
 ### 계단식 배열
 
